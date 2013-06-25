@@ -1,0 +1,855 @@
+<html>
+<head>
+<title>Accra Wire Controls Inc. - || Quotation Sheet ||</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="KeyWords" content="Accra, wire, control, payoff, payout, pay-off, pay-out, pay off, pay out, flatstock, flat stock, coil, coils, material, controls, weld, decoiler, decoilers, dereel, dereelers, pallet, palette, palet, palett, AWC,  indexing, table, turntable, turn, index, bin, control table, lot control, lot, part, parts, handle, handling, handler, handlers, equipment, spool, spools, spooling, respool, respooling, manufacture, manufacturers, manufacturing, components, fabricate, fabricators, capstan, capstans, rewind, rewinders, tension, tensioner, tensioners, tensioning">
+<style type="text/css">
+<!--
+body {  margin: 0px;}
+.arial11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.arial11gray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #7D7628;
+}
+.arial18 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 18px;
+}
+.arial12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.arial11black {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+	function IsNull(obj) //Null Validation
+    {
+       var myString = obj
+       var inThere = myString.match(/\S/g)
+       if (inThere) {
+          return false //Invalid number
+       }
+       return true //Valid Number
+    }
+    function IsEmail(ieobj){//Email Validation
+	   var estr = ieobj          
+       var eres = estr.match(/^(\s)*[_a-z0-9A-Z-]+(\.[_a-z0-9A-Z-]+)*@[a-z0-9A-Z-]+(\.[a-z0-9A-Z-]+)+$/g)
+       if (eres)
+          return true  //Valid Email
+       return false  //Invalid Email
+    }
+
+function validf(tf){
+var a=0 
+   if (IsNull(tf.Company.value)){
+      alert('Please enter a value for "Company" field.');
+	  tf.Company.focus()
+	  return false;
+   }
+   if (IsNull(tf.Person_Name.value)){
+      alert('Please enter a value for "Person" field.');
+	  tf.Person_Name.focus()
+	  return false;
+   }
+   if (IsNull(tf.Address_For_Brochures.value)){
+      alert('Please enter a value for "Address For Brochures" field.');
+	  tf.Address_For_Brochures.focus()
+	  return false;
+   }
+   if (IsNull(tf.Email.value)){
+      alert('Please enter a value for "Email" field.');
+	  tf.Email.focus()
+	  return false;
+   }
+   if (!IsEmail(tf.Email.value)){
+      alert('Please enter a valid Email!');
+	  tf.Email.focus()
+	  return false;
+   }
+   if (IsNull(tf.Phone.value)){
+      alert('Please enter a value for "Phone" field.');
+	  tf.Phone.focus()
+	  return false;
+   }
+   return true;
+}
+
+function fnPrintWin() {
+	var cnt = document.getElementById("content");
+	PrintWin = window.open('','_blank','toolbar=0,location=0,directories=0,status=0,menubar=1,scrollbars=1,width=675'); 
+	PrintWin.blur();
+	PrintWin.document.body.innerHTML = cnt.innerHTML;
+	PrintWin.document.body.width = 629;
+	var el = PrintWin.document.body.children[0];
+	el.outerHTML = '<img src="images/hdr_img02.jpg" width="442" height="72">';
+	PrintWin.print();
+	PrintWin.close();
+}
+<!-- Original:  Jerome Caron (jerome.caron@globetrotter.net) -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+refer = new Array(
+new Array(
+new Array("                  ", "Magazine Ad")
+),
+new Array(
+new Array("Yahoo", "Yahoo"),
+new Array("Google", "Google"),
+new Array("Alta Vista", "Alta Vista"),
+new Array("Lycos", "Lycos"),
+new Array("Searchalot", "Searchalot"),
+new Array("AlltheWeb", "AlltheWeb"),
+new Array("Dmoz", "Dmoz"),
+new Array("Ask Jeeves", "Ask Jeeves"),
+new Array("ThomasNet", "ThomasNet"),
+new Array("Kelly Search", "Kelly Search"),
+new Array("Springs and Wireforms", "Springs and Wireforms"),
+new Array("GigaBlast", "GigaBlast"),
+new Array("Other", "Other")
+),
+new Array(
+new Array("                  ", "Mailing")
+),
+new Array(
+new Array("InterWire 2005", "InterWire 2005"),
+new Array("MetalForm 2005", "MetalForm 2005"),
+new Array("MetalForm 2004", "MetalForm 2004"),
+new Array("WireWorld 2004", "WireWorld 2004"),
+new Array("AWS 2003", "AWS 2003"),
+new Array("InterWire 2003", "InterWire 2003"),
+new Array("MetalForm 2003", "MetalForm 2003"),
+new Array("Other", "Other")
+),
+new Array(
+new Array("                  ", "Sales Rep")
+),
+new Array(
+new Array("                  ", "Word of Mouth")
+),
+new Array(
+new Array("                  ", "Other")
+)
+);
+
+function fillSelectFromArray(selectCtrl, itemArray, goodPrompt, badPrompt, defaultItem) {
+var i, j;
+var prompt;
+// empty existing items
+for (i = selectCtrl.options.length; i >= 0; i--) {
+selectCtrl.options[i] = null; 
+}
+prompt = (itemArray != null) ? goodPrompt : badPrompt;
+if (prompt == null) {
+j = 0;
+}
+else {
+selectCtrl.options[0] = new Option(prompt);
+j = 1;
+}
+if (itemArray != null) {
+// add new items
+for (i = 0; i < itemArray.length; i++) {
+selectCtrl.options[j] = new Option(itemArray[i][0]);
+if (itemArray[i][1] != null) {
+selectCtrl.options[j].value = itemArray[i][1]; 
+}
+j++;
+}
+// select first item (prompt) for sub list
+selectCtrl.options[0].selected = true;
+   }
+}
+
+</script>
+<link href="main.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29004596-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>  
+<body bgcolor="#666666" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/home_nav_ovr.gif','images/about_nav_ovr.gif','images/product_nav_ovr.gif','images/tradeshow_nav_ovr.gif','images/contact_nav_ovr.gif')">
+
+<form name="form1" action="thankyou.php" method="POST">
+<a name="top"></a> 
+<table width="778" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="264"><img src="images/hdr_img01.jpg" width="264" height="100"></td>
+    <td width="514" align="center" valign="middle" background="images/bg_darkgreen.gif"><img src="images/hdr_img02.jpg" width="442" height="72"></td>
+  </tr>
+</table>
+<table width="778" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="212"><img src="images/hdr_img03.jpg" width="212" height="39"></td>
+    <td width="566" valign="top" bgcolor="#333333"> 
+      <table width="566" height="29" border="0" cellpadding="0" cellspacing="0">
+<tr>
+          <td height="27" background="images/bg_darkgreen2.gif"> 
+<table width="566" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="right"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','images/home_nav_ovr.gif',1)"><img src="images/home_nav.gif" name="home" width="44" height="20" border="0"></a><a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('about','','images/about_nav_ovr.gif',1)"><img src="images/about_nav.gif" name="about" width="65" height="20" border="0"></a><a href="products.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('product','','images/product_nav_ovr.gif',1)"><img src="images/product_nav.gif" name="product" width="70" height="20" border="0"></a><a href="tradeshow.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('trade','','images/tradeshow_nav_ovr.gif',1)"><img src="images/tradeshow_nav.gif" name="trade" width="89" height="20" border="0"></a><a href="contactus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('contact','','images/contact_nav_ovr.gif',1)"><img src="images/contact_nav.gif" name="contact" width="76" height="20" border="0"></a></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<table width="778" border="0" align="center" cellpadding="0" cellspacing="0"><!--DWLayoutTable-->
+  <tr> 
+    <td width="149" valign="top" bgcolor="#999999"> <table width="149" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td><img src="images/hdr_img04.jpg" width="149" height="52"></td>
+        </tr>
+        <tr> 
+          <td><table width="149" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                  <td width="149" align="center" background="images/bg_yellow.gif"><strong><span class="arial18"> 
+                    </span></strong> <table width="129" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td colspan="2">&nbsp;</td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><strong><span class="arial18">PRODUCTS</span></strong></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><img src="images/spacer.gif" width="10" height="10"></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><strong><a href="pallet.html" class="arial12">Pallet 
+                          Decoilers</a></strong></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><strong><a href="wire.html" class="arial12">Wire 
+                          Dereelers</a></strong></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2" class="arial12"><strong><a href="parts.html" class="arial12">Parts 
+                          Handlers</a></strong></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><strong><a href="weldwire.html" class="arial12">Weld 
+                          Wire Dereelers</a></strong></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                      </tr>
+                      <tr> 
+                        <td colspan="2"><strong><a href="rewing.html" class="arial12">Rewind/Respool</a></strong></td>
+                      </tr>
+                    <tr> 
+                      <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                    </tr>
+                      <tr> 
+                        <td width="15">&nbsp;</td>
+                        <td><a href="rwquote.html" class="arial12link"><strong>Quotation</strong></a></td>
+                      </tr>
+                    <tr> 
+                      <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2"><strong><a href="comp.html" class="arial12">Comp 
+                        Busters</a></strong></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                    </tr>
+                    <tr> 
+                        <td colspan="2" height="12"><strong><a href="ctl.html" class="arial12">Cut-to-Length 
+                          </a><img src="images/new.jpg" width="37" height="15" align="bottom"></strong></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2" height="12"><strong><a href="shield.html" class="arial12">Safety 
+                        Shields </a></strong><img src="images/new.jpg" width="37" height="15" align="bottom"></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                    </tr>
+					<tr> 
+                      <td colspan="2"><strong><a href="otherprod.html" class="arial12">Other Products</a></strong></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="2"><img src="images/spacer.gif" width="5" height="5"></td>
+                    </tr>
+                    </table>
+                    <strong><span class="arial12"> </span></strong></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td><img src="images/left_div.jpg" width="149" height="13"></td>
+        </tr>
+        <tr> 
+          <td><table width="129" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td valign="top" class="arial11black">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td width="129" valign="top" class="arial11black"><strong>OUR 
+                  CUSTOMERS </strong> <p>&quot;When I presented my challenges 
+                    to Accra-Wire Controls, it was apparent that the technology 
+                    used in tension control and coil handling could really help 
+                    us. We are now able to load a shift's production at one time, 
+                    eliminating up to nine coil changes.&quot; - <strong>Monty 
+                    BrennerPlant Manager<br>
+                    Pullman Industries<br>
+                    Michigan, USA </strong><br>
+                  </p></td>
+              </tr>
+              <tr>
+                <td valign="top" class="arial11black">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+    <td width="629" valign="top" bgcolor="#FFFFFF" name="content" id="content"> 
+	  <table width="629" border="0" cellspacing="0" cellpadding="0"><!--DWLayoutTable-->
+        <tr>
+          <td width="192" background="images/bg_yellow2.gif"><img src="images/ylwlower.gif" width="50" height="51"></td>
+          <td width="159"><img src="images/ylw_prod01.jpg" width="159" height="51"></td>
+          <td width="140"><img src="images/ylw_prod02.jpg" width="140" height="51"></td>
+          <td width="138"><img src="images/ylw_prod03.jpg" width="138" height="51"></td>
+        </tr>
+      </table>
+      <br>
+      <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="95%" colspan="2" align="center" class="verdana12">
+              <div align="left">The following information is necessary for providing 
+                you with a quotation and building the correct rewind for your 
+                specific needs. Please fill in all possible information to the 
+                best of your knowledge. It is a good idea to print this sheet 
+                before sending, so you have a reference point for subsequent discussions 
+                with a qualified AWC representative.</div>
+            </td>
+        </tr>
+        <tr> 
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr> 
+            <td colspan="2" class="verdana12"><strong>Quotation Sheet - Rewind/Take-Up</strong></td>
+        </tr>
+      </table>
+      <br>
+      <table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
+        <tr> 
+          <td width="28%" class="verdana12" align="right"><b>Company: </b></td>
+          <td width="72%" class="content"> <input type="hidden" name="form" value="rw"> 
+            <input type="text" name="Company" class="content" size="40" maxlength="50">
+            * </td>
+        </tr>
+        <tr> 
+          <td width="28%" class="verdana12" align="right"><b>Person (Real Name): 
+            </b></td>
+          <td width="72%" class="content"> <input type="text" name="Person_Name" class="content" size="40" maxlength="60">
+            * </td>
+        </tr>
+        <tr> 
+          <td width="28%" class="verdana12" align="right" valign="top"><b>Address 
+            for brochures: </b></td>
+          <td width="72%" class="content"> <textarea name="Address_For_Brochures" class="content" cols="40"></textarea>
+            * </td>
+        </tr>
+        <tr> 
+          <td width="28%" class="verdana12" align="right"><b>Email: </b></td>
+          <td width="72%" class="content"> <input type="text" name="Email" class="content" size="40" maxlength="50">
+            * </td>
+        </tr>
+        <tr> 
+          <td width="28%" class="content" align="right"><span class="verdana12"><b>Phone</b></span><b>: 
+            </b></td>
+          <td width="72%" class="content"> <input type="text" name="Phone" class="content" size="40" maxlength="50">
+            * </td>
+        </tr>
+        <tr> 
+          <td width="28%" class="verdana12" align="right"><b>Fax: </b></td>
+          <td width="72%" class="content"> <input type="text" name="Fax" class="content" size="40" maxlength="50"> 
+          </td>
+        </tr>
+		<tr>
+		    <td width="36%" class="verdana12" align="right" height="31"><b>How 
+              did you hear about us?: </b></td>
+            <td width="64%" class="content" height="31"> 
+                          <select name="Referred" onChange="fillSelectFromArray(this.form.Referred_By, ((this.selectedIndex == -1) ? null : refer[this.selectedIndex-1]));">
+						    <option value="-1">Please Select 
+						    <option value="Magazine">Magazine Ad 
+						    <option value="Internet">Internet Search 
+						    <option value="Mailing">Mailing 
+						    <option value="Trade Show">Trade Show 
+							<option value="Sales Rep">Sales Rep
+							<option value="Word of Mouth">Word of Mouth
+							<option value="Other">Other
+						  </select>
+						  <SELECT NAME="Referred_By">
+							<OPTION>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</OPTION>
+						  </SELECT></td>
+		 </tr>
+      </table> 
+      <br>
+      <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+            <td height="30" class="verdana12" valign="bottom"> 
+              <div align="center"><b>Reel or Spool</b></div>
+            </td>
+		  <td>&nbsp;</td>
+        </tr>
+        <tr> 
+          <td class="verdana12" width="45%">Edge View<br> <img src="images/wd_reeledge.jpg" width="300" height="300"><br> 
+          </td>
+          <td class="content" width="55%"> <table width="80%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td class="verdana12"><b>My dimensions are all in:</b></td>
+              </tr>
+              <tr> 
+                <td class="verdana12"> 
+                  <input type="radio" name="My_dimensions_are_all_in" value="inches" checked>
+                  inches 
+                  <input type="radio" name="My_dimensions_are_all_in" value="mm">
+                  mm</td>
+              </tr>
+              <tr> 
+                <td class="content">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td class="verdana12">Please refer to the diagram at the left 
+                  for the following values:</td>
+              </tr>
+              <tr> 
+                <td class="content">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>A.</b> 
+                  <input type="text" name="Inside_Spool_Width"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>B.</b> 
+                  <input type="text" name="Total_Spool_Width"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>C.</b> 
+                  <input type="text" name="Spool_ID"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>D.</b> 
+                  <input type="text" name="Spool_OD"> 
+                </td>
+              </tr>
+            </table>
+            <br> 
+            <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td class="verdana12" width="56%" align="right"><b>Material 
+                  Diameter:</b><br> 
+                </td>
+                <td class="content" width="44%"> <input type="text" name="Spool_Material_Diameter" size="10" maxlength="10"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="verdana12" width="56%" align="right"><b>Spool Weight:</b><br> 
+                </td>
+                <td class="content" width="44%"> <input type="text" name="Spool_Weight" size="10" maxlength="10"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="content" width="56%">&nbsp;</td>
+                <td class="verdana12" width="44%"> 
+                  <input type="radio" name="Spool_Weight_Unit" value="pounds" checked>
+                  pounds <br> <input type="radio" name="Spool_Weight_Unit" value="kilograms">
+                  kilograms</td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td class="content" width="45%">&nbsp;</td>
+          <td class="content" width="55%">&nbsp; </td>
+        </tr>
+        <tr> 
+          <td class="verdana12" width="45%">Side View<br> <img src="images/wd_reelside.jpg" width="300" height="300"></td>
+          <td class="content" width="55%"> <table width="80%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td class="verdana12">Please refer to the diagram at the left 
+                  for the following values:</td>
+              </tr>
+              <tr> 
+                <td class="content">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>A.</b> <input type="text" name="Arbor_ID" class="content"> 
+                  <br> &nbsp;&nbsp;&nbsp; (Arbor I.D.)</td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>B. Drive Pin Holes:</b><br> &nbsp;&nbsp; 
+                  <input type="radio" name="Drive_Pin_Holes" value="one">
+                  one 
+                  <input type="radio" name="Drive_Pin_Holes" value="two" checked>
+                  two </td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>C.</b> 
+                  <input type="text" name="Arbor_Center_Distance"> 
+                </td>
+              </tr>
+            </table>
+            <br> 
+            <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center" class="content">
+              <tr> 
+                <td width="47%" class="verdana12"><b>Total Material &amp; <br>
+                  Spool Weight:</b><br> </td>
+                <td width="53%"> <input type="text" name="Total_Material_and_Spool_Weight" size="10" maxlength="10"> 
+                </td>
+              </tr>
+              <tr> 
+                <td width="47%">&nbsp;</td>
+                <td width="53%" class="verdana12"> 
+                  <input type="radio" name="Total_Material_and_Spool_Weight_Unit" value="pounds" checked>
+                  pounds <br> <input type="radio" name="Total_Material_and_Spool_Weight_Unit" value="kilograms">
+                  kilograms</td>
+              </tr>
+              <tr> 
+                <td width="47%">&nbsp;</td>
+                <td width="53%">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>
+      </table> 
+        <br>
+      <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+            <td height="30" class="verdana12" valign="bottom"> 
+              <div align="center"><b>Bundle</b></div>
+            </td>
+			<td>&nbsp;</td>
+        </tr>
+        <tr> 
+            <td class="content" width="45%"><img src="images/wd_bundle.jpg" width="300" height="300"></td>
+          <td class="content"> <table width="80%" border="0" cellspacing="0" cellpadding="0" align="center">
+              <tr> 
+                <td class="verdana12">Please refer to the diagram at the left 
+                  for the following values:</td>
+              </tr>
+              <tr> 
+                <td class="content">&nbsp;</td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>A.</b> 
+                  <input type="text" name="Bundle_Height"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>B.</b> 
+                  <input type="text" name="Bundle_ID"> 
+                </td>
+              </tr>
+              <tr> 
+                <td class="verdana12"><b>C.</b> 
+                  <input type="text" name="Bundle_OD"> 
+                </td>
+              </tr>
+            </table>
+            <br> 
+              <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr> 
+                  <td valign="top" width="136" class="verdana12" align="right" height="122"><b>Material 
+                    Shape:</b><br>
+                  </td>
+                  <td width="11"></td>
+                  <td width="10"></td>
+                  <td width="126" valign="top" class="verdana12" align="left"> 
+                    <input type="radio" name="Bundle_Material_Shape" value="Circle" checked>
+                    &nbsp;&nbsp; <img src="images/q-round.gif" width="30" height="28"><br>
+                    <input type="radio" name="Bundle_Material_Shape" value="Triangle">
+                    &nbsp; <img src="images/q-triangle.gif" width="37" height="30"><br>
+                    <input type="radio" name="Bundle_Material_Shape" value="Square">
+                    &nbsp;&nbsp;&nbsp;<img src="images/q-square.gif" width="30" height="27"><br>
+                    <input type="radio" name="Bundle_Material_Shape" value="Rectangle">
+                    &nbsp;&nbsp;<img src="images/q-rectangle.gif" width="40" height="29"></td>
+                </tr>
+                <tr> 
+                  <td class="verdana12" align="right" colspan="2"><b>Size:</b></td>
+                  <td class="content" colspan="2"> 
+                    <input type="text" name="Material_Size" size="10" maxlength="10">
+                  </td>
+                </tr>
+              </table>
+            </td>
+        </tr>
+      </table> 
+      <br>
+      <table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
+        <tr> 
+          <td class="verdana12" height="30" colspan="2"><b>Other Information</b></td>
+        </tr>
+        <tr> 
+          <td class="verdana12" width="29%" align="right"><b>Type of Application:</b></td>
+          <td class="content" width="71%"> <input type="text" name="Type_Of_Application" size="40" maxlength="50" class="content"> 
+          </td>
+        </tr>
+        <tr> 
+            <td class="verdana12" width="29%" align="right"><b>Type of Material:</b></td>
+	        <td class="content" width="71%"> <input type="text" name="Type_Of_Material" size="40" maxlength="50" class="content"> </td>
+        </tr>
+      </table> 
+      <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+            <td class="verdana12"><b>&nbsp;&nbsp;&nbsp;Mandrel height (Your machine): 
+              <input type="text" name="Mandrel_Height" size="10" maxlength="10" class="content">
+            </b></td>
+        </tr>
+		  <tr> 
+            <td class="verdana12"> 
+              <p><b>Auto Traversing?: </b> &nbsp;&nbsp; 
+                <input type="radio" name="Auto_Traversing" value="Yes">
+                Yes 
+                <input type="radio" name="Auto_Traversing" value="No">
+                No&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <input type="radio" name="Wind_Type" value="Precision level">
+                Precision level&nbsp;&nbsp; 
+                <input type="radio" name="Wind_Type" value="Random layer">
+                Random layer </p>
+            </td>
+		</tr>
+      </table><br>
+        <table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
+          <tr> 
+            <td class="verdana12" width="29%" align="right" height="24"><b>Voltage 
+              Required: </b></td>
+            <td class="content" width="19%" height="24"> <b> 
+              <input type="text" name="Voltage Required" size="10" maxlength="10" class="content">
+            </b></td>
+            <td class="verdana12" width="25%" align="right" height="24"><b>Packages 
+              per Hour: </b></td>
+            <td class="content" width="27%" height="24"> 
+              <input type="text" name="Packages_Per_Hour" size="10" maxlength="10" class="content">
+            </td>
+        </tr>
+        <tr> 
+            <td class="verdana12" width="29%" align="right"><b>Run Speed (RPM): 
+              </b></td>
+            <td class="content" width="19%"> 
+              <input type="text" name="Run_Speed_RPM" size="10" maxlength="10" class="content"> 
+          </td>
+            <td class="verdana12" width="25%" align="right"><b>Feet/Minute: </b></td>
+            <td class="content" width="27%"> 
+              <input type="text" name="FPM" size="10" maxlength="10" class="content"> 
+          </td>
+        </tr>
+        <tr> 
+            <td class="verdana12" width="29%" align="right"><b>Length Tolerance: 
+              </b></td>
+            <td class="content" width="19%"> 
+              <input type="text" name="Length_Tolerance" size="10" maxlength="10" class="content"> 
+          </td>
+            <td class="verdana12" width="25%" align="right"><b>Length per Package: 
+              </b></td>
+            <td class="content" width="27%"> 
+              <input type="text" name="Length_Per_Package" size="10" maxlength="10" class="content"> 
+          </td>
+        </tr>
+        <tr> 
+            <td class="verdana12" width="29%" align="right"><b>Acceleration Time: 
+              </b></td>
+            <td class="content" width="19%"> 
+              <input type="text" name="Acceleration_Time" size="10" maxlength="10" class="content"> 
+          </td>
+            <td class="verdana12" width="25%" align="right"><b>Deceleration Time: 
+              </b></td>
+            <td class="content" width="27%"> 
+              <input type="text" name="Deceleration_Time" size="10" maxlength="10" class="content"> 
+          </td>
+        </tr>
+        <tr> 
+            <td class="verdana12" width="29%" align="right"><b>Acceptable Min Pull: </b></td>
+            <td class="content" width="19%"> 
+              <input type="text" name="Acceptable_Min_Pull" size="10" maxlength="10" class="content"> 
+          </td>
+            <td class="verdana12" width="25%" align="right"><b>Acceptable Max Pull:</b></td>
+            <td class="content" width="27%"> 
+              <input type="text" name="Acceptable_Max_Pull" size="10" maxlength="10" class="content"> 
+          </td>
+        </tr>
+		<tr>
+			<td class="verdana12" width="29%" align="right"><b>No. Take-ups Needed:</b></td>
+			<td class="content" width="19%"><input type="text" name="Number_of_Takeups_Needed" size="10" maxlength="10"></td>
+			<td width="25%"><b class="verdana12">Take-ups in Use Now:</b></td>
+			<td><input type="text" name="Takeups_Currently_In_Use" size="10" maxlength="10" class="content"></td>
+		</tr>
+		<tr>
+			<td class="verdana12" align="right"><b>Footage Counter?:</b></td>
+			<td class="verdana12">
+              <input type="radio" name="Footage_Counter?" value="Yes">Yes
+              <input type="radio" name="Footage_Counter?" value="No">No
+            </td>
+			<td class="verdana12" align="right"><b>Anti-Backup?: </b></td>
+			<td class="verdana12">
+              <input type="radio" name="Anti-Backup_Needed?" value="Yes">Yes
+              <input type="radio" name="Anti-Backup_Needed?" value="No">No
+			</td>
+            </table>
+      <br>
+	    <table width="95%" border="0" cellspacing="0" align="center">
+          <tr> 
+            <td class="verdana12" width="25%"><b>Material Source</b></td>
+            <td width="41%">&nbsp; </td>
+            <td width="34%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="25%" class="verdana12"> &nbsp;&nbsp;&nbsp;
+              <input type="radio" name="Material_Source" value="Payoff">
+              <b>Payoff</b> </td>
+            <td width="41%">&nbsp;</td>
+            <td width="34%">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="25%" class="verdana12"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <input type="radio" name="Have_Payoff?" value="Exists">
+              Existing
+            </td>
+            <td width="41%" class="verdana12">Type: 
+              <input type="text" name="Existing_Payoff_Type" size="30">
+            </td>
+            <td width="34%" class="verdana12">Motorized: 
+              <input type="radio" name="Payoff_Mototized?" value="Yes">Yes
+              <input type="radio" name="Payoff_Mototized?" value="No">No
+            </td>
+          </tr>
+          <tr> 
+            <td width="25%" class="verdana12" height="16"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <input type="radio" name="Have_Payoff?" value="Required">Required
+            </td>
+            <td width="41%" class="verdana12" height="16"> 
+              <input type="checkbox" name="AWC_to_Quote?" value="Yes">AWC to quote
+            </td>
+            <td width="34%" height="16">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="25%" class="verdana12"> &nbsp;&nbsp;&nbsp; 
+              <input type="radio" name="Material_Source" value="Production Line"><b>Production Line</b> </td>
+            <td width="41%">&nbsp;</td>
+            <td width="34%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="25%" class="verdana12" align="right">Type of Process:</td>
+            <td colspan="2" class="verdana12"> 
+              <input type="checkbox" name="Production_Line_Process[]" value="Extrusion">
+              Extrusion &nbsp;&nbsp;&nbsp; 
+              <input type="checkbox" name="Production_Line_Process[]" value="Drawing">
+              Drawing &nbsp;&nbsp;&nbsp; 
+              <input type="checkbox" name="Production_Line_Process[]" value="Respooling">
+              Respooling &nbsp;&nbsp;&nbsp; 
+              <input type="checkbox" name="Production_Line_Process[]" value="Other">
+              Other </td>
+          </tr>
+        </table>
+        <br>
+      <table width="95%" border="0" cellspacing="0" cellpadding="1" align="center">
+        <tr> 
+          <td class="verdana12" width="35%" valign="top"><b>Any other helpful 
+            information:</b></td>
+          <td class="content" width="65%"> 
+              <textarea name="Any_other_helpful_information" cols="50" rows="5"></textarea> 
+          </td>
+        </tr>
+        <tr> 
+          <td class="verdana12" colspan="2" valign="top">If the diagrams shown 
+            do not fit your application, <a href="contactus.html">consult</a> 
+            AWC for custom equipment design. </td>
+        </tr>
+      </table>
+      <br>
+      <table width="95%" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tr> 
+          <td class="verdana12" align="center">Please check the accuracy of all 
+            figures and information before you ask for a quote.</td>
+        </tr>
+        <tr> 
+          <td class="content" align="center" height="40"> 
+		    <input type="button" name="print" value="Print" onclick="fnPrintWin();"> 
+            <input type="submit" name="Submit" value="Submit" onclick="return validf(this.form);"> 
+            <input type="reset" name="reset" value="Reset"> </td>
+        </tr>
+        <tr> 
+          <td class="content" align="center">&nbsp;</td>
+        </tr>
+      </table> <br>
+      <strong></strong></td>
+  </tr>
+</table>
+<table width="778" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#FFFFFF"><img src="images/spacer.gif" width="1" height="1"></td>
+  </tr>
+  <tr>
+    <td background="images/bg_darkgreen.gif"><div align="center"><img src="images/footer.gif" width="208" height="65" border="0" usemap="#Map"></div></td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF"><img src="images/spacer.gif" width="1" height="1"></td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="64,38,210,51" href="http://www.uswebsitebuilder.com" target="_blank">
+</map>
+</form>
+</body>	  
+</html>
